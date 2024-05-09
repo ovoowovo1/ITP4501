@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMovesCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Moves: 0"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvWhoTurnPlayerOrAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Player's Turn"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvPLayerMark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="PLayer Mark: 0"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvAIMark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="AI Mark: 0"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgGame11"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame12"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            app:srcCompat="@drawable/gmaequestionmark"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame13"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame14"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgGame21"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame22"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame23"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame24"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgGame31"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame32"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame33"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame34"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgGame41"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame42"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame43"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame44"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgGame51"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame52"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame53"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imgGame54"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

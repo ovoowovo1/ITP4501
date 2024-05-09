@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ITP4501Assignment</string>
+    <string name="SinglePlayermMode">Single Player Mode</string>
+    <string name="PlayWithAIMode">Play With AI Mode</string>
+    <string name="GameRanking">Game Ranking</string>
+    <string name="YourRecords">Your Records</string>
+    <string name="Setting">Setting</string>
+    <string name="Exits">Exits</string>
+    <string name="MatchPairsMemoryGame">Match pairs Memory Game</string>
+
+    <string-array name="type_options">
+        <item>Time</item>
+        <item>Moves</item>
+    </string-array>
+    <string-array name="order_options">
+        <item>Asc</item>
+        <item>Desc</item>
+    </string-array>
+
+</resources>
